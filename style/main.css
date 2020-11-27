@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 15px auto;
+}
+/* 
+h2 {
+  margin: 15px auto;
+  font-size: 2rem;
+  display: block;
+} */
+
+.scoreboard {
+  display: flex;
+  justify-content: center
+}
+
+.gameboard {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 100px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #313638;
+  border-radius: 15px;
+  padding: 25px;
+  width: 500px;
+  height: auto;
+}
+
+.color {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.russianGreen {
+  background: #6a8d73;
+}
+
+.russianGreen.light {
+  opacity: 0.5;
+}
+
+.cadetBlue {
+  background: #58a4b0;
+}
+
+.cadetBlue.light {
+  opacity: 0.5;
+}
+
+.charcoal {
+  background: #373f51;
+}
+
+.charcoal.light {
+  opacity: 0.5;
+}
+
+.orangeYellow {
+  background: #f3b700;
+}
+
+.orangeYellow.light {
+  opacity: 0.5;
+}
+
+.coquelicot {
+  background: #f63e02;
+}
+
+.coquelicot.light {
+  opacity: 0.5;
+}
+
+.mediumPurple {
+  background: #8980f5;
+}
+
+.mediumPurple.light {
+  opacity: 0.5;
+}
+
+.raisinBlack {
+  background: #272932;
+}
+
+.raisinBlack.light {
+  opacity: 0.5;
+}
+
+.mintCream {
+  background: #f7fff6;
+}
+
+.mintCream.light {
+  opacity: 0.5;
+}
+
+.turquoiseBlue {
+  background: #14fff7;
+}
+
+.turquoiseBlue.light {
+  opacity: 0.5;
+}
+
+.metallicSeaweed {
+  background: #1d8a99;
+}
+
+.metallicSeaweed.light {
+  opacity: 0.5;
+}
+
+.celadonBlue {
+  background: #337ca0;
+}
+
+.celadonBlue.light {
+  opacity: 0.5;
+}
+
+.kellyGreen {
+  background: #3ec300;
+}
+
+.kellyGreen.light {
+  opacity: 0.5;
+}
+
+.maximumYellow {
+  background: #fffc31;
+}
+
+.maximumYellow.light {
+  opacity: 0.5;
+}
+
+.redRYB {
+  background: #ff1d15;
+}
+
+.redRYB.light {
+  opacity: 0.5;
+}
+
+.nickel {
+  background: #6c756b;
+}
+
+.nickel.light {
+  opacity: 0.5;
+}
+
+.ghostWhite {
+  background: #f2f4ff;
+}
+
+.ghostWhite.light {
+  opacity: 0.5;
+}
+
+.mangoTango {
+  background: #f5853f;
+}
+
+.mangoTango.light {
+  opacity: 0.5;
+}
+
+.carnationPink {
+  background: #ff99c8;
+}
+
+.carnationPink.light {
+  opacity: 0.5;
+}
+
+.celeste {
+  background: #22a6b3;
+}
+
+.celeste.light {
+  opacity: 0.5;
+}
+
+.darkSalmon {
+  background: #ef946c;
+}
+
+.darkSalmon.light {
+  opacity: 0.5;
+}
+
+.btn-start {
+  margin: 10px 65px;
+  width: 300px;
+  height: 80px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 2.5rem;
+}
+
+.hide {
+  display: none;
+}
